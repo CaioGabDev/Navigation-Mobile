@@ -2,12 +2,12 @@ import React from "react";
 import { View, Text, TouchableOpacity, StyleSheet } from "react-native";
 import { useNavigation } from "@react-navigation/native";
 
-export default function Marcello() {
+export default function Caio() {
     const navigation = useNavigation();
 
     return (
         <View style={styles.container}>
-            <TouchableOpacity onPress={() => navigation.navigate("Alex")}>
+            <TouchableOpacity onPress={() => navigation.navigate("Caio2")}>
                 <Text style={styles.text}>Neymar Junior</Text>
             </TouchableOpacity>
         </View>

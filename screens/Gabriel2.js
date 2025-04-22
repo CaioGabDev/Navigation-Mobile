@@ -2,12 +2,12 @@ import React from "react";
 import { View, Text, TouchableOpacity, StyleSheet } from "react-native";
 import { useNavigation } from "@react-navigation/native";
 
-export default function Pereira() {
+export default function Gabriel2() {
         const navigation = useNavigation();
         
     return (
         <View style={styles.container}>
-            <TouchableOpacity onPress={() => navigation.navigate("Carboni")}>
+            <TouchableOpacity onPress={() => navigation.navigate("Gabriel")}>
                 <Text style={styles.text}>Camisa 10</Text>
             </TouchableOpacity>
         </View>

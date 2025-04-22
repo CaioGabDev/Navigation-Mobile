@@ -1,8 +1,8 @@
 import React from "react";
 import { createBottomTabNavigator } from "@react-navigation/bottom-tabs";
 import { Ionicons } from "@expo/vector-icons";
-import MarcelloNavigator from "./MarcelloNavigator";
-import PereiraNavigator from "./PereiraNavigator";
+import CaioNavigator from "./CaioNavigator";
+import Gabriel2Navigator from "./Gabriel2Navigator";
 
 const Tab = createBottomTabNavigator();
 
@@ -42,14 +42,14 @@ export default function TabNavigator() {
         >
             <Tab.Screen
                 name="Neymar"
-                component={MarcelloNavigator}
+                component={CaioNavigator}
                 options={{
                     tabBarIcon: ({ color, size }) => <Ionicons name="rocket" color={color} size={size} />,
                 }}
             />
              <Tab.Screen
         name="Junior"
-        component={PereiraNavigator}
+        component={Gabriel2Navigator}
         options={{
           tabBarIcon: ({ color, size }) => (
             <Ionicons name="dice" color={color} size={size} />

@@ -2,11 +2,11 @@ import React from "react";
 import { View, Image, TouchableOpacity, StyleSheet } from "react-native";
 import { useNavigation } from "@react-navigation/native";
 
-export default function Carboni() {
+export default function Gabriel() {
   const navigation = useNavigation();
   return (
     <View style={styles.container}>
-      <TouchableOpacity onPress={() => navigation.navigate("Pereira")}>
+      <TouchableOpacity onPress={() => navigation.navigate("Gabriel2")}>
         <Image
           style={styles.image}
           source={{

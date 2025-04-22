@@ -2,11 +2,11 @@ import React from "react";
 import { View, Image, TouchableOpacity, StyleSheet } from "react-native";
 import { useNavigation } from "@react-navigation/native";
 
-export default function Alex() {
+export default function Caio2() {
   const navigation = useNavigation();
   return (
     <View style={styles.container}>
-      <TouchableOpacity onPress={() => navigation.navigate("Marcello")}>
+      <TouchableOpacity onPress={() => navigation.navigate("Caio")}>
         <Image
           style={styles.image}
           source={{
